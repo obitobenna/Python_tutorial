@@ -21,5 +21,36 @@ print(type(name))
 print(type(age))
 print(type(height))
 
+integer_var = 10
+float_var = 10.5
+complex_var = 3 + 4j
+
+result = integer_var + float_var
+print(result)
+result = integer_var - float_var
+print(result)
+result = integer_var * float_var
+print(result)
+result = integer_var / float_var
+print(result)
+result = integer_var ** 2
+print(result)
+
+quote = "The best way to predict the future is to invent it."
+
+print(len(quote))
+print(quote.upper())
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+set3 = set1 | set2
+print(set3)
+set3 = set1.union(set2)
+print(set3)
+
+
+
+
 
 
