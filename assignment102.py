@@ -11,20 +11,24 @@ my_variable = "This is a variable." #snake_case
 myVariable = "This is another variable." #camelCase
 MY_CONSTANT = "This is a constant." #ALL_Caps
 
+# Using format() method for string formatting
+# Contains placeholders for the 'name', 'age', and 'height' variables
 print("My name is {}, I am {} years old, and my height is {} metres.".format(name, age, height))
 
-age = age * 2
+age = age * 2  # Age is being doubled
 
+# Outputting the doubled age
 print("My new age is", age)
 
+# Using type() function to print the data type of variables
 print(type(name))
 print(type(age))
 print(type(height))
 
+# Initializing variables of different data types
 integer_var = 10
 float_var = 10.5
-complex_var = 3 + 4j
-
+complex_var = 3 + 4j  # a complex number
 result = integer_var + float_var
 print(result)
 result = integer_var - float_var
