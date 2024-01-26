@@ -32,3 +32,12 @@ if year % 4 == 0:
 else:
     print(f"{year} is not a leap year.")
 
+
+
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+
+if username == "admin" and password == "password123":
+    print("Login successful.")
+else:
+    print("Incorrect username or password.")
